@@ -20,6 +20,54 @@ namespace CovidPatients
 
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtpDOB_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void openStripButton3_Click(object sender, EventArgs e)
+        {
+         
+        }
+
+        private void displayInfo(int id)
+        {
+            conn = new SqlConnection();
+            conn.ConnectionString = @"Data Source=COLLINS\SQLEXPRESS;Initial Catalog=CovidPatients;Integrated Security=True";
+
+            conn.Open();
+
+            string sql = "SELECT * FROM tblPatients WHERE PatientId=@PatientId";
+
+            using (SqlCommand cmd = new SqlCommand(sql, conn))
+            {
+                cmd.Parameters.AddWithValue("@PatientId", id);
+
+                SqlDataReader rd = cmd.ExecuteReader();
+
+                if (rd.Read())
+                {
+                    txtName.Text = rd["Names"].ToString();
+                    txtIdNo.Text = rd["IdNo"].ToString();
+                    dtpDOB.Value = DateTime.Parse(rd["DOB"].ToString());
+                    cmbGender.Text = rd["Gender"].ToString();
+                    txtCountry.Text = rd["Country"].ToString();
+                    chkIsActive.Checked = bool.Parse(rd["IsActive"].ToString());
+                }
+                conn.Close();
+            }
+        }
+
+        private void newToolStripButton_Click(object sender, EventArgs e)
+        {
             txtName.Text = "";
             txtIdNo.Text = "";
             txtCountry.Text = "";
@@ -29,7 +77,17 @@ namespace CovidPatients
             txtName.Focus();
         }
 
-        private void toolStripButton2_Click(object sender, EventArgs e)
+        private void openToolStripButton_Click(object sender, EventArgs e)
+        {
+            frmSearchPatients frm = new frmSearchPatients();
+            frm.ShowDialog();
+            if (frm.selInt > 0)
+            {
+                displayInfo(frm.selInt);
+            }
+        }
+
+        private void saveToolStripButton_Click(object sender, EventArgs e)
         {
             if (txtName.Text.Trim() == "")
             {
@@ -83,47 +141,9 @@ namespace CovidPatients
             }
         }
 
-        private void dtpDOB_ValueChanged(object sender, EventArgs e)
+        private void toolStripButton1_Click_1(object sender, EventArgs e)
         {
 
-        }
-
-        private void openStripButton3_Click(object sender, EventArgs e)
-        {
-            frmSearchPatients frm = new frmSearchPatients();
-            frm.ShowDialog();
-            if (frm.selInt > 0)
-            {
-                displayInfo(frm.selInt);
-            }
-        }
-
-        private void displayInfo(int id)
-        {
-            conn = new SqlConnection();
-            conn.ConnectionString = @"Data Source=COLLINS\SQLEXPRESS;Initial Catalog=CovidPatients;Integrated Security=True";
-
-            conn.Open();
-
-            string sql = "SELECT * FROM tblPatients WHERE PatientId=@PatientId";
-
-            using (SqlCommand cmd = new SqlCommand(sql, conn))
-            {
-                cmd.Parameters.AddWithValue("@PatientId", id);
-
-                SqlDataReader rd = cmd.ExecuteReader();
-
-                if (rd.Read())
-                {
-                    txtName.Text = rd["Names"].ToString();
-                    txtIdNo.Text = rd["IdNo"].ToString();
-                    dtpDOB.Value = DateTime.Parse(rd["DOB"].ToString());
-                    cmbGender.Text = rd["Gender"].ToString();
-                    txtCountry.Text = rd["Country"].ToString();
-                    chkIsActive.Checked = bool.Parse(rd["IsActive"].ToString());
-                }
-                conn.Close();
-            }
         }
     }
 }

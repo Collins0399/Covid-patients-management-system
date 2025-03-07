@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\CovidPatients\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F791434B-C44B-4D71-AA41-A92B59449B1A}|CovidPatients\\CovidPatients.csproj|c:\\users\\user\\source\\repos\\covidpatients\\covidpatients\\frmsearchpatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F791434B-C44B-4D71-AA41-A92B59449B1A}|CovidPatients\\CovidPatients.csproj|solutionrelative:covidpatients\\frmsearchpatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F791434B-C44B-4D71-AA41-A92B59449B1A}|CovidPatients\\CovidPatients.csproj|C:\\Users\\USER\\source\\repos\\CovidPatients\\covidpatients\\frmpatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F791434B-C44B-4D71-AA41-A92B59449B1A}|CovidPatients\\CovidPatients.csproj|solutionrelative:covidpatients\\frmpatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F791434B-C44B-4D71-AA41-A92B59449B1A}|CovidPatients\\CovidPatients.csproj|C:\\Users\\USER\\source\\repos\\CovidPatients\\covidpatients\\frmsearchpatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F791434B-C44B-4D71-AA41-A92B59449B1A}|CovidPatients\\CovidPatients.csproj|solutionrelative:covidpatients\\frmsearchpatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F791434B-C44B-4D71-AA41-A92B59449B1A}|CovidPatients\\CovidPatients.csproj|c:\\users\\user\\source\\repos\\covidpatients\\covidpatients\\frmpatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +13,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{F791434B-C44B-4D71-AA41-A92B59449B1A}|CovidPatients\\CovidPatients.csproj|c:\\users\\user\\source\\repos\\covidpatients\\covidpatients\\frmpatients.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F791434B-C44B-4D71-AA41-A92B59449B1A}|CovidPatients\\CovidPatients.csproj|solutionrelative:covidpatients\\frmpatients.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F791434B-C44B-4D71-AA41-A92B59449B1A}|CovidPatients\\CovidPatients.csproj|C:\\Users\\USER\\source\\repos\\CovidPatients\\covidpatients\\frmsearchpatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F791434B-C44B-4D71-AA41-A92B59449B1A}|CovidPatients\\CovidPatients.csproj|solutionrelative:covidpatients\\frmsearchpatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F791434B-C44B-4D71-AA41-A92B59449B1A}|CovidPatients\\CovidPatients.csproj|c:\\users\\user\\source\\repos\\covidpatients\\covidpatients\\frmsearchpatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F791434B-C44B-4D71-AA41-A92B59449B1A}|CovidPatients\\CovidPatients.csproj|solutionrelative:covidpatients\\frmsearchpatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,37 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmSearchPatients.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CovidPatients\\CovidPatients\\frmSearchPatients.cs",
-              "RelativeDocumentMoniker": "CovidPatients\\frmSearchPatients.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\CovidPatients\\CovidPatients\\frmSearchPatients.cs",
-              "RelativeToolTip": "CovidPatients\\frmSearchPatients.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAQwCMAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T06:42:35.903Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "frmPatients.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CovidPatients\\CovidPatients\\frmPatients.cs",
               "RelativeDocumentMoniker": "CovidPatients\\frmPatients.cs",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\CovidPatients\\CovidPatients\\frmPatients.cs",
               "RelativeToolTip": "CovidPatients\\frmPatients.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAuwEEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAIA8wCUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T15:23:19.142Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "frmSearchPatients.cs [Design]",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CovidPatients\\CovidPatients\\frmSearchPatients.cs",
               "RelativeDocumentMoniker": "CovidPatients\\frmSearchPatients.cs",
@@ -72,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "frmPatients.cs [Design]",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CovidPatients\\CovidPatients\\frmPatients.cs",
               "RelativeDocumentMoniker": "CovidPatients\\frmPatients.cs",
@@ -85,12 +72,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "frmSearchPatients.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CovidPatients\\CovidPatients\\frmSearchPatients.cs",
+              "RelativeDocumentMoniker": "CovidPatients\\frmSearchPatients.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\CovidPatients\\CovidPatients\\frmSearchPatients.cs",
+              "RelativeToolTip": "CovidPatients\\frmSearchPatients.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAowFEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T06:42:35.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "frmPatients.Designer.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CovidPatients\\CovidPatients\\frmPatients.Designer.cs",
               "RelativeDocumentMoniker": "CovidPatients\\frmPatients.Designer.cs",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\CovidPatients\\CovidPatients\\frmPatients.Designer.cs",
               "RelativeToolTip": "CovidPatients\\frmPatients.Designer.cs",
-              "ViewState": "AgIAAK4AAAAAAAAAAAAvwLYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAvwJcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T15:38:48.961Z",
               "EditorCaption": ""

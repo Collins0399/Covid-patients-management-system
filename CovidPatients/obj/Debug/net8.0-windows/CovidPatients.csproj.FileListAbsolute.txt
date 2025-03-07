@@ -23,3 +23,4 @@ C:\Users\USER\source\repos\CovidPatients\CovidPatients\bin\Debug\net8.0-windows\
 C:\Users\USER\source\repos\CovidPatients\CovidPatients\obj\Debug\net8.0-windows\CovidPatients.csproj.AssemblyReference.cache
 C:\Users\USER\source\repos\CovidPatients\CovidPatients\obj\Debug\net8.0-windows\CovidPat.622AEB50.Up2Date
 C:\Users\USER\source\repos\CovidPatients\CovidPatients\obj\Debug\net8.0-windows\CovidPatients.frmSearchPatients.resources
+C:\Users\USER\source\repos\CovidPatients\CovidPatients\obj\Debug\net8.0-windows\CovidPatients.sourcelink.json

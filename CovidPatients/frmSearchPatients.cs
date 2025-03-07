@@ -79,7 +79,7 @@ namespace CovidPatients
             if (lstPatients.FocusedItem == null) return;
 
             int i = lstPatients.FocusedItem.Index;
-            label1.Text = lstPatients.Items[i].Text + "Name: " + lstPatients.Items[i].SubItems[1].Text + "Id No." + lstPatients.Items[i].SubItems[2].Text;
+            label1.Text = lstPatients.Items[i].Text + " | Name: " + lstPatients.Items[i].SubItems[1].Text + " | Id No." + lstPatients.Items[i].SubItems[2].Text;
             this.selInt = int.Parse(lstPatients.Items[i].Text);
         }
 
