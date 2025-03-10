@@ -25,7 +25,7 @@ The CovidPatients Management System is a Windows Forms application designed to m
 
 ### Installation
 1. Clone the repository:
-
+      https://github.com/Collins0399/Covid-patients-management-system.git
 2. Open the solution in Visual Studio 2022.
 3. Restore the NuGet packages.
 4. Update the connection string in `frmPatients.cs` and `frmSearchPatients.cs` to match your SQL Server configuration:
